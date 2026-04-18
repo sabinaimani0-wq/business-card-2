@@ -1,5 +1,5 @@
 .one {
-  color: aqua;
+  color: #be365a;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -8,7 +8,9 @@
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -9px;
-  background-color: lightslategrey;
+  background-color: #083a59;
+  text-align: center;
+  justify-content: space-between;
 }
 .two {
   width: 80px;
@@ -24,6 +26,7 @@
   justify-content: flex-end;
   list-style: armenian;
   text-decoration: wavy;
+  color: rgb(133, 40, 8);
 }
 .parent {
   display: flex;
@@ -31,13 +34,13 @@
   text-decoration: none;
 }
 .f1 {
-  color: coral;
+  color: #7c1b06;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: x-large;
   font-weight: bolder;
 }
 .ls {
-  color: blueviolet;
+  color: #780423;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -45,7 +48,7 @@
   font-size: large;
 }
 #y26 {
-  color: darkmagenta;
+  color: rgb(68, 6, 68);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: large;
 }
@@ -53,11 +56,14 @@
   text-align: center;
   list-style-position: inside;
   border: 30px;
-  border-color: black;
-  border-radius: 50px;
+  border: 3px solid black;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 5px;
+  background-color: #c45514;
 }
 body {
-  background-color: brown;
+  background-color: #731702;
 }
 .twos {
   width: 100px;
@@ -72,7 +78,8 @@ body {
   margin-left: -10px;
   margin-right: -10px;
 }
-.f26 {
-  color: beige;
+#f26 {
+  color: rgb(53, 2, 53);
   text-align: center;
+  font-size: large;
 }
